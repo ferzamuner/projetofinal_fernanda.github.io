@@ -1,0 +1,129 @@
+body { 
+	background: #EE82EE;
+	font-size: 100%;
+}
+
+h1  {
+	font-family: Calibri, "Times New Roman", Arial;
+	font-style: italic;
+	font-size: 150%;
+	background: #ff1f46 ;
+	color:#3f3f3f;
+	text-align:center;
+	border: 5px solid gray;
+	margin-left:35%;
+	margin-right:35%;
+
+}
+
+h3 {
+	font-family: Calibri, "Times New Roman", Arial;
+	font-size: 120%;
+	font-variant: normal;
+	background: #ff5474 ;
+	color:#3f3f3f ;
+	text-align:center ;
+	border: 3px solid gray;
+	clear:both;
+   }
+
+p {
+	font-family: "Comic Sans MS", Calibri, "Times New Roman", Arial;
+	font-size:100%;
+	font-style: normal;
+	color: #4f4f4f;
+	text-align: left;
+	
+  }
+h2{clear: both;}
+
+h4 {
+	background: #ff5474;
+	padding-left: 25%;
+	width: 48%;
+	color: #3f3f3f;
+    	border: 2px solid gray;
+}
+ul {	
+	font-family: "Comic Sans MS", Calibri, "Times New Roman", Arial;
+	font-size:100%;
+	font-style: normal;
+	color: #4f4f4f;
+	display: block;
+	list-style-type: circle;
+	
+
+   }
+
+a {
+	color : #ff1f46;
+	font-weight: bold;
+	text-decoration:none;	
+}
+
+a: hover {
+
+	color: #8B008B;
+}
+
+section {
+
+	display: inline-block;
+	float: left;
+	width: 33%;
+}
+
+img {
+	border: 6px solid gray;
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	border-radius: 25px;
+}
+
+div {  
+	font-family: "Comic Sans MS", Calibri, "Times New Roman", Arial;
+	font-size:200%;
+	font-style: normal;
+	color: #4f4f4f;
+	text-align: left;
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 50px;
+	padding: 10%;
+	border-radius:25px;
+}
+
+.frame{
+
+    text-align:center;
+    background:#ff5474;
+    height:400px;
+    width:500px;
+    background-size:cover;
+    border: 5px solid gray;
+    clear: both;
+}
+
+
+
+#outra { 
+   
+    width:45px;
+    height:45px;
+}
+
+#fota {
+	
+	display: inline-block;
+	width:350px;
+
+}
+
+.closed {
+    display: none;
+}
+
+.open{
+    display: block;
+}

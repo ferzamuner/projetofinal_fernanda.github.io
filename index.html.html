@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+
+
+<read>
+	<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script src="./functions.js"></script>
+	
+
+
+</read>
+
+  <body>
+     <img src="DSC_0289.jpg" alt="."/ width="310" height="300">
+    <h1>Fernanda De Martini Zamuner</h1>
+    
+    <h3>Sobre mim:</h3>
+    <p> &nbsp Olá! Eu me chamo <a href="https://www.instagram.com/ferzamuner/"/> Fernanda </a>, tenho 25 anos, nasci no dia 4 de março de 1995, na cidade de <a href="http://www.sorocaba.sp.gov.br/"> Sorocaba </a> no interior de São Paulo. Gosto muito de viajar e conhecer novas culturas, estou sempre buscando aprender, por esse motivo já realizei dois intercambios sociais pela <a href ="https://aiesec.org.br/"> AIESEC </a> para o Peru, e Argentina. Atualmente sou estudante de Engenharia de Telecomunicações na UNICAMP, campus Limeira.  </p>
+    
+    <h3> Experiências:</h3>
+    <p> &nbsp Durante o período da faculdade ajudei a fundar a organização estudantil chamada Projeto Asas, que visa através de métodos de ensino não convencionais ensinar crianças do ensino médio sobre empoderamento juvenil. <a href ="https://www.facebook.com/Asas.Limeira/">Ler mais..</a> </br> &nbsp Também participei da comissão da Frente Feminista e fui membro da atletica AAATU, organizações que me ensinaram muito sobre trabalho em equipe e desenvolvimento pessoal. </br> &nbsp Nos últimos dois anos, auxiliei na administração da empresa <a href="https://www.instagram.com/espacoroper_limeira/"> Espaço Roper.</a></p>
+ 	
+    <h3>Curiosidades</h3>
+    <section>
+    <h4>Filmes Favoritos</h4> 
+     <ul>
+	<li>Vanilla Sky</li>
+	<li>Kill Bill</li>
+	<li>Insterestelar</li>
+     </ul>
+     </section>
+     <section>
+	<h4>Livros Favoritos</h4>
+     <ul>
+	<li>1984</li>
+	<li>O Colapso do Universo</li>
+	<li>Cavalo de Tróia</li>
+     </ul>
+     </section>
+     <section>
+    <h4>Comidas Favoritas</h4>
+     <ul>
+	<li>Lasanha</li>
+	<li>Melancia</li>
+	<li>Abacaxi</li>
+     </ul>
+    </section>
+
+
+
+<div id="frame" class="frame">
+   Vamos nos conhecer melhor? Aqui temos um menu de fotos, passe o mouse sobre as fotos abaixo para ampliá-las!
+  </div>
+
+ 
+<section id="fota">
+  <img id="outra" onmouseover="displayPicture(this)" alt="Versão baby" src="1nene.jpeg"/>
+</section> 
+<section id="fota">
+ <img id="outra" onmouseover="displayPicture(this)" alt="Primeira apresentação de violão" src="2violao.jpg"/>
+</section>  
+<section id="fota">
+<img id="outra" onmouseover="displayPicture(this)" alt="Sempre amei arte" src="3dali.jpg"/>
+</section>
+<section id="fota">
+  <img id="outra" onmouseover="displayPicture(this)" alt="E continuo amando" src="8magrite.jpg"/>
+</section> 
+<section id="fota"> 
+<img id="outra" onmouseover="displayPicture(this)" alt="Nos vales sagrados do peru" src="4peru.jpg"/>
+</section> 
+<section id="fota"> 
+<img id="outra" onmouseover="displayPicture(this)" alt="Fazendo pilha de pedra pra ver se a vida fica mais equilibrada rs" src="5peru.jpg"/>
+</section>  
+<section id="fota">
+<img id="outra" onmouseover="displayPicture(this)" alt="Caminito" src="6arg.jpg"/>
+</section>  
+<section id="fota">
+<img id="outra" onmouseover="displayPicture(this)" alt="Fazendo o que eu mais gosto, dando aula nos meus projetos" src="7arg.jpg"/>
+</section>
+<section id="fota">  
+<img id="outra" onmouseover="displayPicture(this)" alt="Projeto muito especial" src="9arg.jpg"/>
+</section>
+<h2 <p> &nbsp </p> </h2>
+<h3> Fale comigo:</h3>
+    <form id = "contactForm">
+      <p>
+	<label>Name: <input type="text" name="name" id="name"/></label>
+      </p>
+      <p>
+	<label>Company:<input type="text" name="company" id="company"/>
+      </p>
+      <p>
+	<label>Email:<input type="email" name="email"/>
+      </p>
+      <p>
+	<label>Phone:<input type="text" name="phone" id="phone"/>
+      </p>
+      <p>
+	<label>Message:</br><textarea name="message" rows="5" id="message">
+	    </textarea>
+	</label>
+      </p>
+      <p>
+	<button type="submit" onclick="return submitForm()">Submit</button>
+      </p>
+    </form>
+    
+    <div class="closed" id="confirm">Your Message has been sent!</>
+
+</body>
+</html>
